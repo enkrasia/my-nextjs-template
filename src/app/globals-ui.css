@@ -1,0 +1,54 @@
+.ui-button-default, .ui-button-prompt, .ui-button-warning, .ui-button-danger, .ui-button-disabled {
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-button-disabled {
+    pointer-events: none;
+    color: var(--color-inactive);
+    border-color: var(--color-inactive);
+}
+
+.ui-button-default {
+    color: var(--color-neutral);
+    border-color: var(--color-neutral);
+
+    &:hover {
+        color: var(--color-neutral-2nd);
+        border-color: var(--color-neutral-2nd);
+    }
+}
+
+.ui-button-prompt {
+    color: var(--color-active);
+    border-color: var(--color-active);
+
+    &:hover {
+        color: var(--color-active-2nd);
+        border-color: var(--color-active-2nd);
+    }
+}
+
+.ui-button-warning {
+    color: var(--color-warning);
+    border-color: var(--color-warning);
+
+    &:hover {
+        color: var(--color-warning-2nd);
+        border-color: var(--color-warning-2nd);
+    }
+}
+
+.ui-button-danger {
+    color: var(--color-danger);
+    border-color: var(--color-danger);
+
+    &:hover {
+        color: var(--color-danger-2nd);
+        border-color: var(--color-danger-2nd);
+    }
+}

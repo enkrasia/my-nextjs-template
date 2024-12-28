@@ -1,11 +1,11 @@
 import s from "./page.module.css";
 
-const Home = () => {
+const SamplePage = () => {
     return (
         <div>
-            Home
+            Sample
         </div>
     );
 }
 
-export default Home;
+export default SamplePage;
